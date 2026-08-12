@@ -23,7 +23,7 @@ npm run dev
 
 1. ریپو را به Netlify وصل کنید (یا drag & drop پوشه `dist` بعد از build).
 2. در Environment variables این دو مقدار را تنظیم کنید:
-   - `VITE_SUPABASE_URL` = `https://roegzongrdhzpmpzibgx.supabase.co`
-   - `VITE_SUPABASE_ANON_KEY` = کلید Publishable شما
+   - `VITE_SUPABASE_URL` = 
+   - `VITE_SUPABASE_ANON_KEY` = 
 3. Build command: `npm run build`
 4. Publish directory: `dist`
