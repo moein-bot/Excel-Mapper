@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0c0e14;
+  --color-bg-card: #13161f;
+  --color-bg-elevated: #1a1e2a;
+  --color-bg-hover: #1f2435;
+  --color-border: #2a2f3e;
+  --color-border-light: #353b4e;
+  --color-text: #e8eaf0;
+  --color-text-secondary: #8b90a0;
+  --color-text-muted: #5a5f72;
+  --color-accent: #38bdf8;
+  --color-accent-hover: #5ccbfa;
+  --color-accent-dim: rgba(56, 189, 248, 0.12);
+  --color-accent-glow: rgba(56, 189, 248, 0.25);
+  --color-success: #34d399;
+  --color-success-dim: rgba(52, 211, 153, 0.12);
+  --color-error: #f87171;
+  --color-error-dim: rgba(248, 113, 113, 0.12);
+  --color-warning: #fbbf24;
+}
+
+html {
+  background-color: #0c0e14;
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: rtl;
+  background-color: #0c0e14;
+  color: #e8eaf0;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #13161f;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2f3e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #353b4e;
+}
+
+input, textarea, select {
+  font-family: 'Vazirmatn', sans-serif;
+}
